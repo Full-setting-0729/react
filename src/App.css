@@ -1,0 +1,75 @@
+.LoginInput{
+  width:70%;
+  height: 30px;
+  border-radius: 5px;
+  position: relative;
+  top:-25px;
+}
+.SignUp{
+  font-size: 90%;
+  left: 20%;
+  margin-right: 10%;
+  text-decoration: none;  /** 하이퍼 링크 밑줄 없앰**/
+  color: gray;
+}
+.SignUp:hover{
+  text-decoration: underline;
+}
+.IdPwFind{
+  font-size: 90%;
+  left: 10%;
+  text-decoration: none;  /** 하이퍼 링크 밑줄 없앰**/
+  color: gray;
+  
+}
+.IdPwFind:hover{
+  text-decoration: underline;
+}
+.LoginArea{
+  text-align: center;
+  border: 1px solid black;
+  width:25%;
+  padding:8% 0;
+  margin-top: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px 3px gray; 
+  
+}
+.Logo{
+  width:50%;
+  position: relative;
+  bottom: 35px;
+  right: 4px;
+}
+.pageArea{
+  
+  display: flex; /**/
+  justify-content: center; /*중앙 정렬 display:flex일때만 사용 가능*/
+}
+.LogFormBt{
+  width:70%;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+  top:20px;
+  
+}
+.LogFormBt:active{
+  outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5382ce;
+}
+
+.GoogleNaverBt{
+  position: relative;
+  left : 50%;
+  top: 30%;
+  width:120px;
+}
+.KaKaoBt{
+  position: relative;
+  left : 30%;
+
+  
+}
