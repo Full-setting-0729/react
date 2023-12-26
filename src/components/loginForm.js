@@ -18,7 +18,22 @@ function LoginForm(){
                         <a href="#" className="IdPwFind" value="아이디/비번찾기">아이디/비밀번호 찾기</a>
                     </div>
                     <div><input className="LogFormBt" type="submit" value="로그인"></input></div>
-                    
+
+                    <fieldset>
+                        <legend>간편 로그인</legend>
+                        <div className="simpleLoginButtons">
+                            <a href="구글_링크_주소_입력">
+                                <img src={구글로그인버튼} alt="Google 로그인" className="simpleLoginButton"></img>
+                            </a>
+                            {/* 네이버, 카카오 등 다른 로그인 버튼도 추가 가능 */}
+                            <a href="네이버_링크_주소_입력">
+                                <img src={네이버로그인버튼} alt="Naver 로그인" className="simpleLoginButton"></img>
+                            </a>
+                            <a href="카카오_링크_주소_입력">
+                                <img src={카카오로그인버튼} alt="Kakao 로그인" className="kakaoLoginButton"></img>
+                            </a>
+                        </div>
+                    </fieldset>
                 </form>    
             </div>
     </div>
